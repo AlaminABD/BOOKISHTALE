@@ -1,0 +1,237 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin-bottom: 80px;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    color: #ff0303;
+    padding: 20px ;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+}
+
+.header-content img {
+    margin-right: 20px;
+    width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff0303; /* Change color on hover */
+}
+
+section {
+    padding: 20px;
+}
+
+#picture-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.picture {
+    max-width: 40%; /* Adjust the width of each picture */
+}
+
+.picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners to the images */
+}
+
+.text {
+    max-width: 55%; /* Adjust the width of the text container */
+}
+
+.text h2 {
+    color: black; /* Updated color for the heading */
+    margin-bottom: 10px;
+}
+
+.text p {
+    text-align: left;
+    margin-top: 20px;
+    color: black; /* Adjust spacing */
+}
+
+#get-started-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#get-started-btn:hover {
+    background-color: #ff0303;
+}
+
+#fiction-books-of-the-month {
+    padding: 20px;
+}
+
+#fiction-books-of-the-month h2 {
+    color: black; /* Dark red color */
+    margin-bottom: 10px;
+}
+
+#fiction-books-of-the-month p {
+    margin-top: 20px;
+    text-align: left;
+    color: black;
+}
+
+.books-container {
+    display: flex;
+    flex-wrap: nowrap; /* Keep books in the same line */
+    overflow-x: auto; /* Add horizontal scrolling for smaller screens */
+}
+
+.book {
+    width: 150px; /* Adjust width of each book */
+    margin-right: 20px; /* Add spacing between books */
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.book-details {
+    padding: 10px;
+}
+
+.book-details h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.book-details p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content img {
+    margin-right: 20px;
+    width: 150px; /* Adjust as needed */
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links a {
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff0303; /* Change color on hover */
+}
+
+.footer-links a:last-child {
+    margin-right: 0;
+}
+
+/* Add this CSS for the search bar */
+#search-form {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 5px;
+    width: 200px;
+    margin-right: 0; /* Remove margin */
+    border: 1px solid black;
+}
+
+#search-button {
+    padding: 5px;
+    background-color: #ff0303; /* Red background color */
+    border: none;
+    cursor: pointer;
+}
+
+#search-button svg {
+    width: 15px; /* Adjust icon size */
+    height: 15px; /* Adjust icon size */
+    fill: #fff; /* Icon color */
+}
+
+#search-form button {
+    padding: 5px 10px;
+    background-color:  black; /* Updated background color */
+    color: #fff ; /* Updated text color */
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#search-form button:hover {
+    background-color: #ff6666; /* Hover background color */
+}
+
+#login-btn,
+#signup-btn {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #ff0303;
+    border: 1px solid #ff0303; /* Updated border */
+    cursor: pointer;
+}
+
+#login-btn:hover,
+#signup-btn:hover {
+    background-color: #ff0303; /* Updated hover background color */
+    color: #fff; /* Updated hover text color */
+}
