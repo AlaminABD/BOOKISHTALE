@@ -584,3 +584,265 @@ footer {
 .nav-container ul li {
     margin: 0 10px; /* Adjust spacing between navigation items */
 }
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    color: #ff0303;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content img {
+    width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff0303; /* Change color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-container h2 {
+    color: #ff0303;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    flex: 1;
+}
+
+.contact-details h3 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.contact-details p {
+    margin: 0;
+}
+
+#contact-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff0303;
+}
+
+footer {
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content img {
+    margin-right: 20px;
+    width: 150px; /* Adjust as needed */
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links a {
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff0303; /* Change color on hover */
+}
+
+/* Add this CSS to styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-container ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-container ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-container ul li a:hover {
+    color: #ff0303;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.book-review {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.book-info {
+    display: flex;
+}
+
+.book-cover {
+    width: 200px;
+}
+
+.book-cover img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.book-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.book-details h3 {
+    color: #ff0303;
+    margin-bottom: 10px;
+}
+
+.review-content {
+    padding: 20px;
+}
+
+.rating {
+    margin-bottom: 10px;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff0303;
+    color: #ccc;
+}
+
+footer {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+
