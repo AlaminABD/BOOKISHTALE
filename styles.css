@@ -900,3 +900,73 @@ body {
     height: auto; /* Maintain aspect ratio */
 }
 
+/* categories : art & photography */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.book-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.book-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+.pagination .current {
+    padding: 5px 10px;
+    border: 1px solid #333;
+    background-color: #333;
+    color: #fff;
+}
+
+
+
