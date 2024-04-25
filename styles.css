@@ -103,6 +103,10 @@ section {
     margin-bottom: 10px;
 }
 
+#fiction-books-of-the-month h2:hover {
+    color: #ff0303;
+}
+
 #fiction-books-of-the-month p {
     margin-top: 20px;
     text-align: left;
