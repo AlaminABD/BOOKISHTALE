@@ -103,6 +103,10 @@ section {
     margin-bottom: 10px;
 }
 
+#Latest-From-Our-Blog h2:hover{
+    color: #ff0303;
+}
+
 #fiction-books-of-the-month h2:hover {
     color: #ff0303;
 }
