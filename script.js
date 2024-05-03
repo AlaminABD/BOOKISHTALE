@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const loginBtn = document.getElementById('login-btn');
+    const signupBtn = document.getElementById('signup-btn'); // Add this line
     const modal = document.getElementById('login-modal');
     const closeBtn = document.querySelector('.close');
 
@@ -13,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Signup button clicked');
     });
 });
+
 document.addEventListener('DOMContentLoaded', function() {
     const loginForm = document.getElementById('login-form');
 
@@ -28,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     const signupForm = document.getElementById('signup-form');
+    const signupBtn = document.getElementById('signup-btn'); // Add this line
 
     signupForm.addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent form submission
@@ -36,5 +39,3 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Form submitted');
     });
 });
-
-
